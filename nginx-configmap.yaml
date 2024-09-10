@@ -15,9 +15,5 @@ data:
           index index.html;
         }
 
-        location /files {
-          root /data
-          autoindex on;
-        }
       }
     }
